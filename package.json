@@ -1,0 +1,24 @@
+{
+  "name": "numble-hpny",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.1",
+    "@commitlint/config-conventional": "^17.4.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "jsdom": "^21.0.0",
+    "prettier": "^2.8.2",
+    "vite": "^4.0.0",
+    "vitest": "^0.27.0"
+  }
+}
